@@ -45,8 +45,17 @@ import {Friend, Colleague, ColleagueHistory } from './myTypes'
     },
   };
 
+  const colleague4: Colleague = {  //added for a friend thats also a colleage for Utility Types end exercise.
+    name: "Alex Fan",
+    department: "HR",
+    contact: {
+      email: "alex@company.com",
+      extension: 133,
+    },
+  };
+
   export const colleagues : ColleagueHistory = {
-    current: [colleague1, colleague2, colleague3],
+    current: [colleague1, colleague2, colleague3, colleague4],
     former: [],
   };
   
