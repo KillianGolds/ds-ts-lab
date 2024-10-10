@@ -13,9 +13,9 @@ export interface Colleague {
     } 
 }
 
-export interface Contact {
-    email: string;
-    extension: number;
+export interface EmailContact {
+    name: string;
+    email: string
 }
 
 export interface ColleagueHistory {
