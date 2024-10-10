@@ -43,7 +43,7 @@ import {Friend, Colleague, ColleagueHistory } from './myTypes'
     },
   };
 
-  export const colleagues = {
+  export const colleagues : ColleagueHistory = {
     current: [colleague1, colleague2, colleague3],
     former: [],
   };
