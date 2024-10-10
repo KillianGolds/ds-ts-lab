@@ -72,3 +72,12 @@ function findFriends(friends: Friend[], criterion: (friend: Friend) => boolean):
 console.log(findFriends(friends, (friend) => friend.name.startsWith('Al')));
 console.log(findFriends(friends, (friend) => friend.age > 30));
 
+function addInterest(friend: Friend, interest: string): string[] {
+    if (!friend.interests) {
+        friend.interests = []; // Initialize the interests array in case it doesn't exist
+    }
+    friend.interests.push(interest); // Add the interest to the array
+    return friend.interests; // Return the updated interests array
+}
+console.log(addInterest(friends[0], 'Sports')); // Add a new interest to the first friend
+console.log(addInterest(friends[0], 'Politics')); // Add another interest to the first friend
