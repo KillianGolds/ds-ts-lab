@@ -1,0 +1,23 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/KillianGolds/ds-ts-lab.git"
+  },
+  "author": "Killian Golds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KillianGolds/ds-ts-lab/issues"
+  },
+  "homepage": "https://github.com/KillianGolds/ds-ts-lab#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^4.8.4"
+  }
+}
